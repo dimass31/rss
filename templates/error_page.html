@@ -1,0 +1,25 @@
+{% extends 'bootstrap3.html' %}
+{% load bootstrap3 %}
+{% block bootstrap3_content %}
+    <nav class="navbar navbar-default navbar-fixed-top" style="">
+        <div class="container">
+            <div class="navbar-header">
+                <span>
+                    <a class="navbar-brand"><i class="fa fa-newspaper-o"></i>RSS News</a>
+                </span>
+            </div>
+            <div class="navbar-right">
+                <div class="navbar-text"><button class="btn btn-default btn-xs">Вход</button></div>
+                <div class="navbar-text"><button class="btn btn-default btn-xs">Регистрация</button></div>
+            </div>
+        </div>
+    </nav>
+
+    <div class="container">
+        <div class="jumbotron">
+            <h2><strong>Такой страницы нет</strong></h2>
+            <a class="btn btn-success btn-lg" href="/">Перейти</a>
+        </div>
+    </div>
+
+{% endblock %}
